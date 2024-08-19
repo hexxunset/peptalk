@@ -70,22 +70,6 @@ h1 {
   color: #3DC5EE;
 }
 
-#generateButton {
-  display: block;
-  margin: auto;
-  padding: 16px 24px;
-  border-radius: 16px;
-  font-size: 48px;
-}
-
-#inspoButton {
-  position: absolute;
-  bottom: 12px;
-  left: 12px;
-  padding: 8px 16px;
-  border-radius: 8px;
-  font-size: 16px;
-}
 
 /* Larger screens */
 @media screen and (min-width: 1100px) {
@@ -113,20 +97,6 @@ h1 {
 
   #peptalk p {
     display: inline-block;
-  }
-  
-  #generateButton {
-    padding: 8px 12px;
-    border-radius: 8px;
-    font-size: 24px;
-  }
-
-  #inspoButton {
-    bottom: 8px;
-    left: 8px;
-    padding: 6px 12px;
-    border-radius: 6px;
-    font-size: 12px;
   }
 }
 
