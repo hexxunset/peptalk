@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="main">
+      <h1>Turn that frown upside down</h1>
+      <div id="peptalk-generator">
+        <div id="peptalk">
+          <p id="peptalk1"></p>
+          <p id="peptalk2"></p>
+          <p id="peptalk3"></p>
+          <p id="peptalk4"></p>
+        </div>
+        <button type="button" id="generateButton" onclick="generatePeptalk()">Generate</button>
+      </div>
+      <button type="button" id="inspoButton" onclick="showInspo()">Pep talk generator chart</button>
+    </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- The Close Button -->
+      <span class="close">&times;</span>
+
+      <!-- Modal Content (The Image) -->
+      <img class="modal-content" id="img01">
+
+      <!-- Modal Caption (Image Text) -->
+      <div id="caption"></div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
