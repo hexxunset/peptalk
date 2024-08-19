@@ -46,6 +46,7 @@ h1 {
   padding: 84px 12px 64px 12px;
   text-align: center;
   font-size: 48px;
+  line-height: 48px;
   min-height: 502.4px;
 }
 
@@ -86,7 +87,48 @@ h1 {
   font-size: 16px;
 }
 
+/* Larger screens */
+@media screen and (min-width: 1200px) {
+  #main {
+    position: relative;
+    margin: 48px 32px;
+    height: 100%;
+  }
 
+  h1 {
+    font-size: 48px;
+    padding: 64px 12px;
+    width: calc(100% - 24px);
+  }
+
+  #peptalk-generator {
+    width: 100%;
+  }
+
+  #peptalk {
+    padding: 84px 12px 24px 12px;
+    font-size: 24px;
+    min-height: 80.8px;
+  }
+
+  #peptalk p {
+    display: inline-block;
+  }
+  
+  #generateButton {
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 24px;
+  }
+
+  #inspoButton {
+    bottom: 8px;
+    left: 8px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+  }
+}
 
 
 /* Modal */
