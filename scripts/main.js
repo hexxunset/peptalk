@@ -1,4 +1,4 @@
-const numOptions = 2;
+const numOptions = 18;
 
 function getRandomInt(max) {
     return Math.floor(Math.random() * max);
