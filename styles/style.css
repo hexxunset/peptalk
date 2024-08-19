@@ -38,7 +38,11 @@ h1 {
 }
 
 #peptalk-generator {
-  margin: 0 auto;
+  padding: 42px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
 }
 
 #peptalk {
