@@ -26,9 +26,9 @@
 #inspoButton {
   background: #fff;
   backface-visibility: hidden;
-  border-radius: .375rem;
+  border-radius: 4px;
   border-style: solid;
-  border-width: .125rem;
+  border-width: 2px;
   box-sizing: border-box;
   color: #212121;
   cursor: pointer;
