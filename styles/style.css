@@ -50,27 +50,6 @@ h1 {
   min-height: 576px;
 }
 
-
-#peptalk1 {
-  color: #FC90E4;
-}
-
-
-#peptalk2 {
-  color: #3DC5EE;
-}
-
-
-#peptalk3 {
-  color: #FC90E4;
-}
-
-
-#peptalk4 {
-  color: #3DC5EE;
-}
-
-
 /* Larger screens */
 @media screen and (min-width: 1100px) {
   #main {
